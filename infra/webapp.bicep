@@ -1,5 +1,5 @@
 param webAppName string = uniqueString(resourceGroup().id) // Generate unique String for web app name
-yaml
+yam1
 param sku string = 'S1' // The SKU of App Service Plan
 param location string = resourceGroup().location
 
